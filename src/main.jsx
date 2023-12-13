@@ -8,7 +8,6 @@ import CartPage from './Pages/CartPage';
 import RootLayout from './Components/Layouts/RootLayout';
 import ProductDetail from './Pages/ProductDetailPage';
 import { SnackbarProvider } from 'notistack';
-import Footer from './Components/Layouts/FooterLayout';
 
 const router = createBrowserRouter([
     {
