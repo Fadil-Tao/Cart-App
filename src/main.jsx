@@ -8,15 +8,17 @@ import CartPage from './Pages/CartPage';
 import RootLayout from './Components/Layouts/RootLayout';
 import ProductDetail from './Pages/ProductDetailPage';
 import { SnackbarProvider } from 'notistack';
+import ErrorPage from './Pages/ErrorPage';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <RootLayout />,
+        errorElement:<ErrorPage/>,
         children: [
             {
                 path: '/',
-                element: <ProductDetail />,
+                element: <ErrorPage />,
             },
             {
                 path: '/home',
