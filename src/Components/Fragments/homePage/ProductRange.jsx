@@ -1,7 +1,7 @@
 import ProductCard from './ProductCard';
 import { Link } from 'react-router-dom';
 import sneakers from '../../../assets/Images/nikeairforce.jpg';
-import yeezy from '../../../assets/images/slidesbrown.jpg';
+import yeezy from '../../../assets/Images/slidesbrown.jpg';
 const boots =
     'https://thecrosstrainer.co.za/cdn/shop/products/nike-manoa-leather-boots--gradeschool-39032337563893.jpg?v=1681173857&width=1445';
 const ProductContainer = () => {
