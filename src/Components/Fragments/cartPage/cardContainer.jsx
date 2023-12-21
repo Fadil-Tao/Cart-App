@@ -21,7 +21,7 @@ const CartCardContainer = () => {
         dispatch(decrease(index))
     }  
     return (
-        <div>
+        <div className=''>
             <h1 className='flex justify-center items-center'>Your Order</h1>
             <div className='grid grid-cols-1'>
                 <ul>

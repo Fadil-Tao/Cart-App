@@ -1,7 +1,7 @@
 import MainCard from '../Components/Fragments/ProductDetail/MainCard';
 import SimilarProducts from '../Components/Fragments/ProductDetail/SimilarProduct';
 import { useLocation } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useSnackbar } from 'notistack';
 import { add } from '../store/cartSlice';

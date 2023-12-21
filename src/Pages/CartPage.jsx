@@ -2,7 +2,7 @@ import CartLayout from '../Components/Layouts/CartLayout';
 
 const CartPage = () => {
     return (
-        <div className=' '>
+        <div className='flex justify-center items-center'>
             <CartLayout />
         </div>
     );
