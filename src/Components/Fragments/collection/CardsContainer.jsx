@@ -58,7 +58,7 @@ const CardContainer = () => {
 
     return (
         <div className='w-full'>
-            <div className='lg:w-[330px] lg:flex lg:justify-start lg:ml-12 h-10 bg-slate-500 lg:h-10'>
+            <div className='lg:w-[330px] lg:flex lg:justify-start lg:ml-12 h-10 md:px-2  px-14 lg:h-10'>
                 {' '}
                 <SearchBar onChange={(e) => handleChange(e)} Click={handleSearch} />
             </div>

@@ -2,7 +2,7 @@ import CartCard from './cartCard';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { remove, increase, decrease} from '../../../store/cartSlice';
-import { enqueueSnackbar , useSnackbar} from 'notistack';
+import {   useSnackbar} from 'notistack';
 const CartCardContainer = () => {
     const productCart = useSelector((state) => state.cart);
     const dispatch = useDispatch();

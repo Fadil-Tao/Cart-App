@@ -3,7 +3,7 @@ import Location from './Location';
 
 const ContactsContainer = () => {
     return (
-        <div className='flex justify-center items-center w-full  px-8'>
+        <div className='flex justify-center items-center w-full  px-5'>
             <ContactsLayout/>
             <Location />
         </div>

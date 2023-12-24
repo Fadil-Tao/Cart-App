@@ -9,7 +9,7 @@ const NavButton = (props) => {
 
     return (
         <button
-            className={`${bgColor}  rounded-lg font-semibold  ${border} p-2 ${fontColor} mr-8
+            className={`${bgColor}  rounded-lg font-semibold  ${border} p-2 md:w-36 ${fontColor} mx-2
         hover:text-cyan-400` } onClick={onClick}
         >
             {children}
