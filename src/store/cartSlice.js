@@ -19,13 +19,17 @@ const cartSlice = createSlice({
         remove(state, action) {
             return state.filter((state, index) => index !== action.payload);
         },
-        increase(state,action){
-            state[action.payload].qty += 1  
+        increase(state, action) {
+            state[action.payload].qty += 1;
         },
-        decrease(state,action){
-            state[action.payload].qty -= 1  
-
-        }
+        decrease(state, action) {
+            if (state[action.payload].qty === 1) {
+                
+                return state.filter((item, index) => index !== action.payload);
+            } else {
+                state[action.payload].qty -= 1;
+            }
+        },
     },
 });
 export const { add, remove, increase, decrease } = cartSlice.actions;
